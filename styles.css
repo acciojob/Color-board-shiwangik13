@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+
+.squre{
+
+    width:20px;
+    height:20px;
+    background-color: aqua;
+
+
+}
+.container{
+    
+    background-color: black;
+    display: grid;
+    grid-template-columns:repeat(40,20px);
+   
+    gap:5px;
+
+    padding:25px;
+}
